@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'enfonix';
+  src: url('./enfonix/Enfonix-DEMO.otf') format('opentype');
+}
+body {
+  overflow-x: hidden;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+main {
+  margin-top: 80vh;
+  font-family: 'enfonix';
+  position: absolute;
+  z-index: 9999;
+  color: white;
+}
+main div:nth-child(1){
+  width: 100vw;
+  text-align: center;
+}
+main div:nth-child(2) {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 30px;
+}
