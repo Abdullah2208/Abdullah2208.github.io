@@ -27,3 +27,9 @@ main div:nth-child(2) {
   flex-direction: row-reverse;
   padding-right: 30px;
 }
+
+@media (max-width: 800px) {
+  body{
+    display: none;
+  }
+}
